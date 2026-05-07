@@ -20,3 +20,19 @@ The device generates a detailed performance summary for every completed repetiti
 4. Drive Brake: The force applied to decelerate and stop the weight at the midpoint/lockout.
 5. Return Peak: The maximum acceleration during the second half of the movement.
 6. Return Impact: The force measured when the weight comes to a complete stop or hits the floor.
+
+## Harware Config.
+Component    Connection
+MPU6050      VCC/GND,3V3 / GND
+MPU6050      SDA/SCL,GP4 / GP5
+Control      Button,GP14
+Onboard      LED,Status & Calibration Indicator
+
+## Operation
+1. Calibration: Power the device while stationary on a flat surface. The LED remains ON during calibration and turns OFF when ready.
+2. Start Recording: Double-press the control button. The LED flashes 3 times to indicate the session is active.
+3. End Recording: Double-press the button again. The LED provides a long pulse to confirm all data has been saved to the internal storage.
+4. Data Retrieval: Connect the Pico to a PC to access the .txt logs or .csv spreadsheets.
+
+
+
