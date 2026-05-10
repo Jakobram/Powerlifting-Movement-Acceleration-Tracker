@@ -22,11 +22,11 @@ The device generates a detailed performance summary for every completed repetiti
 6. Return Impact: The force measured when the weight comes to a complete stop or hits the floor.
 
 ## Harware Config.
-Component    Connection
-MPU6050      VCC/GND,3V3 / GND
-MPU6050      SDA/SCL,GP4 / GP5
-Control      Button,GP14
-Onboard      LED,Status & Calibration Indicator
+- Component    Connection
+- MPU6050      VCC/GND,3V3 / GND
+- MPU6050      SDA/SCL,GP4 / GP5
+- Control      Button,GP14
+- Onboard      LED,Status & Calibration Indicator
 
 ## Operation
 1. Calibration: Power the device while stationary on a flat surface. The LED remains ON during calibration and turns OFF when ready.
