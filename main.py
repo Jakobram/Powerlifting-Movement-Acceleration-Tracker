@@ -19,7 +19,7 @@ init_mpu6050(i2c)
 # --- State & Data Variables ---
 is_logging = False 
 state = "READY" 
-direction = 0      # 1: Up-First (Curls), -1: Down-First (Squats)
+direction = 0      # 1: Up-First (Deadlifts), -1: Down-First (Squats/Bench)
 accel_history = []
 still_counter = 0
 
