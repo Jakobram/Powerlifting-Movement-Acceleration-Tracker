@@ -21,7 +21,7 @@ The device generates a detailed performance summary for every completed repetiti
 5. Return Peak: The maximum acceleration during the second half of the movement.
 6. Return Impact: The force measured when the weight comes to a complete stop or hits the floor.
 
-## Hardware Config
+## Hardware Config.
 | Component | Connection |
 | :--- | :--- |
 | **MPU6050** | VCC/GND, 3V3 / GND |
