@@ -3,7 +3,7 @@
 ## Project Overview
 PicoLift is a specialized fitness tool designed to monitor The Big Three powerlifting movements: Squat, Bench Press, and Deadlift.
 
-The system uses Cumulative Acceleration Analysis to detect the slow, heavy starts typical of a max-effort deadlift. It also features a Bi-Directional Logic Gate, allowing it to automatically recognize "Down-First" movements (Squats) and "Up-First" movements (Bench Press) without manual input.
+The system uses Cumulative Acceleration Analysis to detect the slow, heavy starts typical of a max-effort deadlift. It also features a Bi-Directional Logic Gate, allowing it to automatically recognize "Down-First" movements (Squats/Bench Press) and "Up-First" movements (Deadlifts) without manual input.
 
 ## Device Functionality
 - Bi-Directional Detection: Automatically identifies whether a movement starts with a descent (Squat/Bench) or an ascent (Deadlift).
